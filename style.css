@@ -1,0 +1,40 @@
+/* .wrapper .login-with {
+    background: #e8e2e2;
+} */
+.wrapper .submit .sign-btn{
+max-width: 340px;
+position: relative;
+left: 25px;
+padding-bottom: 15px;
+padding: 14px;
+ }
+
+ .wrapper .login-with {
+    background: #f8f5f5;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 25px;
+    display: inline-block;
+    position: relative;
+    left: 6px;
+    width: 336px !important;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.wrapper .forget-pw {
+    margin-left: 130px;
+}
+
+.wrapper img.img-fluid {
+    max-width: 14%;
+}
+.wrapper .login-with:hover{
+    background:#e1d8d8;;
+}
+.wrapper .hover-text:hover{
+    color:red;
+}
+img.img-fluid-1 {
+    max-width: 60%;
+}
