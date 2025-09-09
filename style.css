@@ -17,7 +17,8 @@ padding: 14px;
     display: inline-block;
     position: relative;
     left: 6px;
-    width: 336px !important;
+    /* width: 336px !important; */
+    max-width: 278px !important;
     margin-top: 12px;
     margin-bottom: 8px;
 }
@@ -37,4 +38,23 @@ padding: 14px;
 }
 img.img-fluid-1 {
     max-width: 60%;
+}
+
+@media(max-width:767px){
+    .wrapper .submit .sign-btn {
+        max-width: 287px;
+    }
+    .wrapper .login-with {
+        width: 237px !important;
+    }
+}
+.wrapper{
+    background:url('bg.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding:0 0 100px;
+    background-attachment:fixed;
+    background-position:bottom center;
+    min-height:100%
+   
 }
