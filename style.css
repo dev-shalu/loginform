@@ -1,60 +1,105 @@
 /* .wrapper .login-with {
     background: #e8e2e2;
 } */
-.wrapper .submit .sign-btn{
-max-width: 340px;
-position: relative;
-left: 25px;
-padding-bottom: 15px;
-padding: 14px;
- }
+.wrapper .submit .sign-btn {
+  max-width: 340px;
+  position: relative;
+  left: 25px;
+  padding-bottom: 15px;
+  padding: 14px;
+}
 
- .wrapper .login-with {
-    background: #f8f5f5;
-    padding: 6px;
-    border-radius: 5px;
-    margin-right: 25px;
-    display: inline-block;
-    position: relative;
-    left: 6px;
-    /* width: 336px !important; */
-    max-width: 278px !important;
-    margin-top: 12px;
-    margin-bottom: 8px;
+.wrapper .login-with {
+  background: #f8f5f5;
+  padding: 6px;
+  border-radius: 5px;
+  margin-right: 25px;
+  display: inline-block;
+  position: relative;
+  left: 6px;
+  /* width: 336px !important; */
+  max-width: 278px !important;
+  margin-top: 12px;
+  margin-bottom: 8px;
 }
 
 .wrapper .forget-pw {
-    margin-left: 130px;
+  margin-left: 130px;
 }
 
 .wrapper img.img-fluid {
-    max-width: 14%;
+  max-width: 14%;
 }
-.wrapper .login-with:hover{
-    background:#e1d8d8;;
+.wrapper .login-with:hover {
+  background: #e1d8d8;
 }
-.wrapper .hover-text:hover{
-    color:#e1d8d8;
+.wrapper .hover-text:hover {
+  color: #e1d8d8;
 }
 img.img-fluid-1 {
-    max-width: 60%;
+  max-width: 60%;
 }
 
-@media(max-width:767px){
-    .wrapper .submit .sign-btn {
-        max-width: 287px;
-    }
-    .wrapper .login-with {
-        width: 237px !important;
-    }
+@media (max-width: 767px) {
+  .wrapper .submit .sign-btn {
+    max-width: 287px;
+  }
+  .wrapper .login-with {
+    width: 237px !important;
+  }
 }
-.wrapper{
-    background:url('bg.png');
-    background-repeat: no-repeat;
-    background-size:contain;
-    padding:0 0 100px;
-    background-attachment:fixed;
-    background-position:bottom center;
-    min-height:100%
-   
+.wrapper {
+  background: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0 0 100px;
+  background-attachment: fixed;
+  background-position: bottom center;
+  min-height: 100%;
+}
+.wrapper .form-control:focus {
+  border-color: #999494;
+  box-shadow: none;
+}
+/* --------signupform css------ */
+
+.form-check {
+  margin-left: 11%;
+}
+
+p {
+  font-size: 10px;
+  padding-right: 44px;
+}
+
+.glogin-with {
+  background: #f8f5f5;
+  padding: 6px;
+  border-radius: 5px;
+  margin-right: 25px;
+  display: inline-block;
+  position: relative;
+  left: 6px;
+  max-width: 342px !important;
+}
+@media (max-width: 767px) {
+  .wrapper .glogin-with {
+    width: 237px !important;
+  }
+}
+
+/* --------forgot password css-------- */
+.fw_submit .cancel-btn {
+  background-color: grey;
+  border: none;
+  width: 94px;
+  padding: 12px;
+  position: relative;
+  right: 25px;
+}
+
+.fw_submit .sign-btn {
+  border: none;
+  width: 94px;
+  padding: 12px;
 }
